@@ -24,12 +24,12 @@ Pod::Spec.new do |spec|
   
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
+  
 
   # Subspec A
   spec.subspec "NDA" do |subspec|
-    subspec.source = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.11/LivenessMaskView_NDA.zip" }
     subspec.vendored_frameworks = "NDA/LivenessMaskView.xcframework"
-    subspec.summary = "NDA Style for LivenessMaskView"
+    subspec.source_files = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.11/LivenessMaskView_NDA.zip" }
   end
 
   spec.swift_version = "5.0"
