@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 
   # Subspec A
   spec.subspec "NDA" do |subspec|
-    subspec.vendored_frameworks = "NDA/LivenessMaskView.xcframework"
+    subspec.vendored_frameworks = "LivenessMaskView.xcframework"
     subspec.source_files = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.11/LivenessMaskView_NDA.zip" }
   end
 
