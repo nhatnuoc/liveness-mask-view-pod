@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 
   # Subspec A
   spec.subspec "NDA" do |subspec|
-    subspec.vendored_frameworks = "NDA/LivenessMaskView.xcframework"
+    subspec.vendored_frameworks = "LivenessMaskView/NDA/LivenessMaskView.xcframework"
   end
 
   spec.swift_version = "5.0"
