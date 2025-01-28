@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LivenessMaskView"
-  spec.version      = "0.0.11"
+  spec.version      = "0.0.20"
   spec.summary      = "A short description of LivenessMaskView."
   spec.homepage     = "https://github.com/nhatnuoc/liveness-mask-view-pod"
   spec.author           = { 'Nguyen Thanh Binh' => 'binhvuong.2010@gmail.com' }
@@ -24,12 +24,11 @@ Pod::Spec.new do |spec|
   
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
-  
+  spec.source = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.20/LivenessMaskView.zip" }
 
   # Subspec A
   spec.subspec "NDA" do |subspec|
-    subspec.vendored_frameworks = "LivenessMaskView.xcframework"
-    subspec.source_files = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.11/LivenessMaskView_NDA.zip" }
+    subspec.vendored_frameworks = "NDA/LivenessMaskView.xcframework"
   end
 
   spec.swift_version = "5.0"
