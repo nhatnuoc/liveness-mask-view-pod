@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
 
   # Script tải file .zip nếu chưa tồn tại
   spec.prepare_command = <<-CMD
+    echo "Current directory: $(pwd)"
     FRAMEWORK_DIR="NDA"
     FRAMEWORK_ZIP="LivenessMaskView.zip"
     FRAMEWORK_URL="https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.20/LivenessMaskView.zip"
