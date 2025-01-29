@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "11.0"
 
   # Bỏ spec.source vì ta sẽ tải file bằng prepare_command
-  # spec.source = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.20/LivenessMaskView.zip" }
+  spec.source = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.20/LivenessMaskView.zip" }
   
   spec.vendored_frameworks = "NDA/LivenessMaskView.xcframework"
   spec.swift_version = "5.0"
