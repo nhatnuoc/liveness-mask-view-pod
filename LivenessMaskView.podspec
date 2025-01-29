@@ -7,26 +7,35 @@
 #
 
 Pod::Spec.new do |spec|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   spec.name         = "LivenessMaskView"
   spec.version      = "0.0.20"
   spec.summary      = "A short description of LivenessMaskView."
   spec.homepage     = "https://github.com/nhatnuoc/liveness-mask-view-pod"
-  spec.author           = { 'Nguyen Thanh Binh' => 'binhvuong.2010@gmail.com' }
+  spec.author       = { 'Nguyen Thanh Binh' => 'binhvuong.2010@gmail.com' }
   spec.license      = "MIT"
   
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
-  spec.source = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.20/LivenessMaskView.zip" }
+
+  # Bỏ spec.source vì ta sẽ tải file bằng prepare_command
+  # spec.source = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.20/LivenessMaskView.zip" }
+  
   spec.vendored_frameworks = "NDA/LivenessMaskView.xcframework"
   spec.swift_version = "5.0"
 
+  # Script tải file .zip nếu chưa tồn tại
+  spec.prepare_command = <<-CMD
+    FRAMEWORK_DIR="NDA"
+    FRAMEWORK_ZIP="LivenessMaskView.zip"
+    FRAMEWORK_URL="https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.20/LivenessMaskView.zip"
 
+    if [ ! -d "$FRAMEWORK_DIR/LivenessMaskView.xcframework" ]; then
+      echo "Downloading LivenessMaskView framework..."
+      curl -L -o "$FRAMEWORK_ZIP" "$FRAMEWORK_URL"
+      unzip -o "$FRAMEWORK_ZIP" -d "$FRAMEWORK_DIR"
+      rm -f "$FRAMEWORK_ZIP"
+    else
+      echo "LivenessMaskView framework already exists, skipping download."
+    fi
+  CMD
 end
