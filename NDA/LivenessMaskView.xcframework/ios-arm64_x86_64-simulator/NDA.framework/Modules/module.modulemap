@@ -1,0 +1,6 @@
+framework module NDA {
+  umbrella header "NDA.h"
+  export *
+
+  module * { export * }
+}
