@@ -33,7 +33,6 @@ Pod::Spec.new do |spec|
       echo "Downloading LivenessMaskView framework..."
       curl -L -o "$FRAMEWORK_ZIP" "$FRAMEWORK_URL"
       unzip -o "$FRAMEWORK_ZIP" -d "$FRAMEWORK_DIR"
-      rm -f "$FRAMEWORK_ZIP"
     else
       echo "LivenessMaskView framework already exists, skipping download."
     fi
