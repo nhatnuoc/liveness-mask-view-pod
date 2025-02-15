@@ -30,7 +30,7 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-extension LivenessMask.LivenessMaskView {
+extension LivenessMaskView {
   @_Concurrency.MainActor @preconcurrency public func showError(_ message: Swift.String)
   @_Concurrency.MainActor @preconcurrency public func showDetected(_ message: Swift.String?)
   @_Concurrency.MainActor @preconcurrency public func showProcessing(_ message: Swift.String?)
