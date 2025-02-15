@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LivenessMask"
-  spec.version      = "0.0.22"
+  spec.version      = "0.0.1"
   spec.summary      = "A short description of LivenessMaskView."
   spec.homepage     = "https://github.com/nhatnuoc/liveness-mask-view-pod"
   spec.author           = { 'Nguyen Thanh Binh' => 'binhvuong.2010@gmail.com' }
