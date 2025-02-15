@@ -25,7 +25,10 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
   spec.source = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.22/LivenessMask.zip" }
-  spec.vendored_frameworks = "LivenessMask.xcframework"
+  spec.subspec 'NDA' do |nda|
+      nda.dependency 'Lottie', '~> 4.5.1'
+      nda.vendored_frameworks = "NDA/LivenessMask.xcframework"
+  end
 
   spec.swift_version = "5.0"
 end
