@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "LivenessMaskView"
-  spec.version      = "0.0.21"
+  spec.name         = "LivenessMask"
+  spec.version      = "0.0.22"
   spec.summary      = "A short description of LivenessMaskView."
   spec.homepage     = "https://github.com/nhatnuoc/liveness-mask-view-pod"
   spec.author           = { 'Nguyen Thanh Binh' => 'binhvuong.2010@gmail.com' }
@@ -24,18 +24,8 @@ Pod::Spec.new do |spec|
   
   spec.platform = :ios
   spec.ios.deployment_target = "11.0"
-  spec.source = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.21/LivenessMaskView.zip" }
-
-  # Subspec A
-  spec.subspec "NDA" do |subspec|
-    subspec.vendored_frameworks = "NDA/LivenessMaskView.xcframework"
-  end
+  spec.source = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.22/LivenessMask.zip" }
+  spec.vendored_frameworks = "LivenessMask.xcframework"
 
   spec.swift_version = "5.0"
-  spec.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-
-
 end

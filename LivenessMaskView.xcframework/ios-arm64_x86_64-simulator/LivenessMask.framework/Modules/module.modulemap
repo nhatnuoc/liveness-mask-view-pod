@@ -1,0 +1,6 @@
+framework module LivenessMask {
+  umbrella header "LivenessMask.h"
+  export *
+
+  module * { export * }
+}

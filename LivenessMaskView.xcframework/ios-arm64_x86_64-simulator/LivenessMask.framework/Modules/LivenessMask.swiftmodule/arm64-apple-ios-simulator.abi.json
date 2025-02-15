@@ -1,0 +1,1263 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "LivenessMask",
+    "printedName": "LivenessMask",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LivenessMask",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "LivenessMask"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessMaskView",
+        "printedName": "LivenessMaskView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instructionText",
+            "printedName": "instructionText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LivenessMask0aB4ViewC15instructionTextSSSgvp",
+            "mangledName": "$s12LivenessMask0aB4ViewC15instructionTextSSSgvp",
+            "moduleName": "LivenessMask",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC15instructionTextSSSgvg",
+                "mangledName": "$s12LivenessMask0aB4ViewC15instructionTextSSSgvg",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC15instructionTextSSSgvs",
+                "mangledName": "$s12LivenessMask0aB4ViewC15instructionTextSSSgvs",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC15instructionTextSSSgvM",
+                "mangledName": "$s12LivenessMask0aB4ViewC15instructionTextSSSgvM",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewFrame",
+            "printedName": "previewFrame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LivenessMask0aB4ViewC12previewFrameSo6CGRectVvp",
+            "mangledName": "$s12LivenessMask0aB4ViewC12previewFrameSo6CGRectVvp",
+            "moduleName": "LivenessMask",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC12previewFrameSo6CGRectVvg",
+                "mangledName": "$s12LivenessMask0aB4ViewC12previewFrameSo6CGRectVvg",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC12previewFrameSo6CGRectVvs",
+                "mangledName": "$s12LivenessMask0aB4ViewC12previewFrameSo6CGRectVvs",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC12previewFrameSo6CGRectVvM",
+                "mangledName": "$s12LivenessMask0aB4ViewC12previewFrameSo6CGRectVvM",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "processingOvalBorderColor",
+            "printedName": "processingOvalBorderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LivenessMask0aB4ViewC25processingOvalBorderColorSo7UIColorCvp",
+            "mangledName": "$s12LivenessMask0aB4ViewC25processingOvalBorderColorSo7UIColorCvp",
+            "moduleName": "LivenessMask",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC25processingOvalBorderColorSo7UIColorCvg",
+                "mangledName": "$s12LivenessMask0aB4ViewC25processingOvalBorderColorSo7UIColorCvg",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC25processingOvalBorderColorSo7UIColorCvs",
+                "mangledName": "$s12LivenessMask0aB4ViewC25processingOvalBorderColorSo7UIColorCvs",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC25processingOvalBorderColorSo7UIColorCvM",
+                "mangledName": "$s12LivenessMask0aB4ViewC25processingOvalBorderColorSo7UIColorCvM",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorOvalBorderColor",
+            "printedName": "errorOvalBorderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LivenessMask0aB4ViewC20errorOvalBorderColorSo7UIColorCvp",
+            "mangledName": "$s12LivenessMask0aB4ViewC20errorOvalBorderColorSo7UIColorCvp",
+            "moduleName": "LivenessMask",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC20errorOvalBorderColorSo7UIColorCvg",
+                "mangledName": "$s12LivenessMask0aB4ViewC20errorOvalBorderColorSo7UIColorCvg",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC20errorOvalBorderColorSo7UIColorCvs",
+                "mangledName": "$s12LivenessMask0aB4ViewC20errorOvalBorderColorSo7UIColorCvs",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC20errorOvalBorderColorSo7UIColorCvM",
+                "mangledName": "$s12LivenessMask0aB4ViewC20errorOvalBorderColorSo7UIColorCvM",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "normalOvalBorderColor",
+            "printedName": "normalOvalBorderColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LivenessMask0aB4ViewC21normalOvalBorderColorSo7UIColorCvp",
+            "mangledName": "$s12LivenessMask0aB4ViewC21normalOvalBorderColorSo7UIColorCvp",
+            "moduleName": "LivenessMask",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC21normalOvalBorderColorSo7UIColorCvg",
+                "mangledName": "$s12LivenessMask0aB4ViewC21normalOvalBorderColorSo7UIColorCvg",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC21normalOvalBorderColorSo7UIColorCvs",
+                "mangledName": "$s12LivenessMask0aB4ViewC21normalOvalBorderColorSo7UIColorCvs",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC21normalOvalBorderColorSo7UIColorCvM",
+                "mangledName": "$s12LivenessMask0aB4ViewC21normalOvalBorderColorSo7UIColorCvM",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "processingAnimDuration",
+            "printedName": "processingAnimDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LivenessMask0aB4ViewC22processingAnimDurationSdvp",
+            "mangledName": "$s12LivenessMask0aB4ViewC22processingAnimDurationSdvp",
+            "moduleName": "LivenessMask",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC22processingAnimDurationSdvg",
+                "mangledName": "$s12LivenessMask0aB4ViewC22processingAnimDurationSdvg",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC22processingAnimDurationSdvs",
+                "mangledName": "$s12LivenessMask0aB4ViewC22processingAnimDurationSdvs",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC22processingAnimDurationSdvM",
+                "mangledName": "$s12LivenessMask0aB4ViewC22processingAnimDurationSdvM",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionTextAttributes",
+            "printedName": "instructionTextAttributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Foundation.NSAttributedString.Key : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Key",
+                    "printedName": "Foundation.NSAttributedString.Key",
+                    "usr": "c:@T@NSAttributedStringKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12LivenessMask0aB4ViewC25instructionTextAttributesSDySo21NSAttributedStringKeyaypGvp",
+            "mangledName": "$s12LivenessMask0aB4ViewC25instructionTextAttributesSDySo21NSAttributedStringKeyaypGvp",
+            "moduleName": "LivenessMask",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSAttributedString.Key : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Key",
+                        "printedName": "Foundation.NSAttributedString.Key",
+                        "usr": "c:@T@NSAttributedStringKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC25instructionTextAttributesSDySo21NSAttributedStringKeyaypGvg",
+                "mangledName": "$s12LivenessMask0aB4ViewC25instructionTextAttributesSDySo21NSAttributedStringKeyaypGvg",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSAttributedString.Key : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Key",
+                        "printedName": "Foundation.NSAttributedString.Key",
+                        "usr": "c:@T@NSAttributedStringKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC25instructionTextAttributesSDySo21NSAttributedStringKeyaypGvs",
+                "mangledName": "$s12LivenessMask0aB4ViewC25instructionTextAttributesSDySo21NSAttributedStringKeyaypGvs",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12LivenessMask0aB4ViewC25instructionTextAttributesSDySo21NSAttributedStringKeyaypGvM",
+                "mangledName": "$s12LivenessMask0aB4ViewC25instructionTextAttributesSDySo21NSAttributedStringKeyaypGvM",
+                "moduleName": "LivenessMask",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LivenessMask@objc(cs)LivenessMaskView(im)drawRect:",
+            "mangledName": "$s12LivenessMask0aB4ViewC4drawyySo6CGRectVF",
+            "moduleName": "LivenessMask",
+            "overriding": true,
+            "objc_name": "drawRect:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessMaskView",
+                "printedName": "LivenessMask.LivenessMaskView",
+                "usr": "c:@M@LivenessMask@objc(cs)LivenessMaskView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LivenessMask@objc(cs)LivenessMaskView(im)initWithFrame:",
+            "mangledName": "$s12LivenessMask0aB4ViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "LivenessMask",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LivenessMask.LivenessMaskView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessMaskView",
+                    "printedName": "LivenessMask.LivenessMaskView",
+                    "usr": "c:@M@LivenessMask@objc(cs)LivenessMaskView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LivenessMask@objc(cs)LivenessMaskView(im)initWithCoder:",
+            "mangledName": "$s12LivenessMask0aB4ViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LivenessMask",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showError",
+            "printedName": "showError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12LivenessMask0aB4ViewC9showErroryySSF",
+            "mangledName": "$s12LivenessMask0aB4ViewC9showErroryySSF",
+            "moduleName": "LivenessMask",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showDetected",
+            "printedName": "showDetected(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12LivenessMask0aB4ViewC12showDetectedyySSSgF",
+            "mangledName": "$s12LivenessMask0aB4ViewC12showDetectedyySSSgF",
+            "moduleName": "LivenessMask",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showProcessing",
+            "printedName": "showProcessing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12LivenessMask0aB4ViewC14showProcessingyySSSgF",
+            "mangledName": "$s12LivenessMask0aB4ViewC14showProcessingyySSSgF",
+            "moduleName": "LivenessMask",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showMessage",
+            "printedName": "showMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12LivenessMask0aB4ViewC11showMessageyySSF",
+            "mangledName": "$s12LivenessMask0aB4ViewC11showMessageyySSF",
+            "moduleName": "LivenessMask",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSuccess",
+            "printedName": "showSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12LivenessMask0aB4ViewC11showSuccessyySSF",
+            "mangledName": "$s12LivenessMask0aB4ViewC11showSuccessyySSF",
+            "moduleName": "LivenessMask",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LivenessMask@objc(cs)LivenessMaskView",
+        "mangledName": "$s12LivenessMask0aB4ViewC",
+        "moduleName": "LivenessMask",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LivenessMask"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LivenessMask"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LivenessMask"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "LivenessMask"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 29,
+      "value": "\"ovalBorderProcessingAnimKey\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1073,
+      "length": 3,
+      "value": "-30"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1082,
+      "length": 3,
+      "value": "-25"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1340,
+      "length": 3,
+      "value": "-25"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1349,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1610,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1731,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "StringLiteral",
+      "offset": 1933,
+      "length": 15,
+      "value": "\"anim-detected\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2111,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2384,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8401,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "FloatLiteral",
+      "offset": 8425,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8453,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 826,
+      "length": 8,
+      "value": "\"normal\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1000,
+      "length": 20,
+      "value": "\"oval_border_normal\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1174,
+      "length": 13,
+      "value": "\"primaryText\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1339,
+      "length": 12,
+      "value": "\"processing\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1497,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1794,
+      "length": 10,
+      "value": "\"bg_flash\""
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1962,
+      "length": 16,
+      "value": "\"bg_flash_white\""
+    }
+  ]
+}
