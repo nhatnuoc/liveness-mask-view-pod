@@ -1206,56 +1206,56 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 675,
+      "offset": 618,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 826,
+      "offset": 747,
       "length": 8,
       "value": "\"normal\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1000,
+      "offset": 899,
       "length": 20,
       "value": "\"oval_border_normal\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1051,
       "length": 13,
       "value": "\"primaryText\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1339,
+      "offset": 1194,
       "length": 12,
       "value": "\"processing\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1497,
+      "offset": 1330,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1794,
+      "offset": 1569,
       "length": 10,
       "value": "\"bg_flash\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Library\/Developer\/Xcode\/DerivedData\/LivenessMask-hijkrupistysxcblkptgkusknpsc\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LivenessMask\/IntermediateBuildFilesPath\/LivenessMask.build\/Release-iphonesimulator\/LivenessMask.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1962,
+      "offset": 1715,
       "length": 16,
       "value": "\"bg_flash_white\""
     }
