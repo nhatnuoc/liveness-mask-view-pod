@@ -1122,13 +1122,6 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1073,
-      "length": 3,
-      "value": "-30"
-    },
-    {
-      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
-      "kind": "IntegerLiteral",
       "offset": 1082,
       "length": 3,
       "value": "-25"
@@ -1136,70 +1129,91 @@
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1340,
+      "offset": 1093,
+      "length": 3,
+      "value": "-34"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1106,
       "length": 3,
       "value": "-25"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1349,
+      "offset": 1118,
+      "length": 3,
+      "value": "-32"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1377,
+      "length": 3,
+      "value": "-25"
+    },
+    {
+      "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1386,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
       "kind": "FloatLiteral",
-      "offset": 1610,
+      "offset": 1647,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1731,
+      "offset": 1768,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
       "kind": "StringLiteral",
-      "offset": 1933,
+      "offset": 1970,
       "length": 15,
       "value": "\"anim-detected\""
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
       "kind": "FloatLiteral",
-      "offset": 2111,
+      "offset": 2148,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2384,
+      "offset": 2421,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
       "kind": "FloatLiteral",
-      "offset": 8401,
+      "offset": 8438,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
       "kind": "FloatLiteral",
-      "offset": 8425,
+      "offset": 8462,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/nhatnuoc\/Documents\/Workspace\/LivenessMaskView\/LivenessMask\/LivenessMaskView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8453,
+      "offset": 8490,
       "length": 1,
       "value": "1"
     },
