@@ -17,14 +17,15 @@ Pod::Spec.new do |spec|
 
   spec.name         = "LivenessMask"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of LivenessMaskView."
+  spec.summary      = "A library for liveness detection mask view."
+  spec.description  = "LivenessMask provides an easy-to-use UI component for displaying masks in liveness detection."
   spec.homepage     = "https://github.com/nhatnuoc/liveness-mask-view-pod"
   spec.author           = { 'Nguyen Thanh Binh' => 'binhvuong.2010@gmail.com' }
   spec.license      = "MIT"
   
   spec.platform = :ios
-  spec.ios.deployment_target = "11.0"
-  spec.source = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/0.0.22/LivenessMask.zip" }
+  spec.ios.deployment_target = "13.0"
+  spec.source = { :http => "https://github.com/nhatnuoc/liveness-mask-view-pod/releases/download/1.0.0/LivenessMask.zip" }
   spec.subspec 'NDA' do |nda|
       nda.dependency 'lottie-ios', '~> 4.5.1'
       nda.vendored_frameworks = "NDA/LivenessMask.xcframework"
