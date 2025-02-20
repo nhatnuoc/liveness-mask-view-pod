@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   
   spec.platform = :ios
-  spec.ios.deployment_target = "13.0"
+  spec.ios.deployment_target = "11.0"
   spec.source = { :git => "https://github.com/nhatnuoc/liveness-mask-view-pod.git", :tag => "v1.0.2" }
   spec.subspec 'NDA' do |nda|
       nda.dependency 'lottie-ios', '4.4.1'
