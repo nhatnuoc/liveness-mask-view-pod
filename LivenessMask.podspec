@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LivenessMask"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A library for liveness detection mask view."
   spec.description  = "LivenessMask provides an easy-to-use UI component for displaying masks in liveness detection."
   spec.homepage     = "https://github.com/nhatnuoc/liveness-mask-view-pod"
@@ -25,9 +25,9 @@ Pod::Spec.new do |spec|
   
   spec.platform = :ios
   spec.ios.deployment_target = "13.0"
-  spec.source = { :git => "https://github.com/nhatnuoc/liveness-mask-view-pod.git", :tag => "v1.0.1" }
+  spec.source = { :git => "https://github.com/nhatnuoc/liveness-mask-view-pod.git", :tag => "v1.0.2" }
   spec.subspec 'NDA' do |nda|
-      nda.dependency 'lottie-ios', '~> 4.5.1'
+      nda.dependency 'lottie-ios', '4.4.1'
       nda.vendored_frameworks = "NDA/LivenessMask.xcframework"
   end
 
